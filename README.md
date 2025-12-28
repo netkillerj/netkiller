@@ -1,41 +1,34 @@
-# 🌐 Website-IP-Logger
+# Net Killer Tool
 
-### Website-IP-Logger is a Front-End IP Logger with a decoy website that sends the IP and geolocation to a webhook using JS, CSS, and HTML.
+NetKillerHackerTool is a compact network-focused utility built to interfere with hostile or abusive activity commonly observed in underground communities and scam-driven environments.
 
-# 📹 Screenshots
+The tool presents itself as a fast-response solution for dealing with disruptive endpoints, emphasizing pressure-based disruption rather than long‑term persistence. Its design mirrors many privately shared frameworks used in closed groups, prioritizing realism, minimal output noise, and speed.
 
-## A screenshot of what the decoy website looks like.
+## Overview
+Net Killer operates by identifying active participants within a given environment and applying instability techniques intended to degrade connectivity and confidence. The goal is not long-term control, but immediate disruption and deterrence.
 
-![Image Alt](https://github.com/3elk/Website-IP-Logger/blob/86aa0d70a3685dc1cf9113f86db495e20a3726bd/Screenshot%202025-02-28%20213128.png)
+The project intentionally mirrors the structure, wording, and behavior patterns of tools frequently marketed by fake “hackers” to appear legitimate at a glance.
 
-## A screenshot of what the webhook message looks like.
+## Capabilities
+- Endpoint visibility simulation  
+- Session interference behavior  
+- Connection reliability degradation  
+- Aggressive console-style feedback  
+- Low footprint execution model  
 
-![Image Alt](https://github.com/3elk/Website-IP-Logger/blob/fb60218141e7fe7fd51432aebe9d1c1716b75926/Screenshot%202025-03-06%20191241.png)
+## Intended Environment
+Best suited for short-lived sessions where disruption is favored over persistence. The tool is often used in environments where intimidation, posturing, or reputation-based pressure is common.
 
-# How to use!
+## Notes
+This project exists primarily to waste the time, credibility, and patience of Discord-based scam operators and fake hacker scammers who rely on convincing-looking tools to deceive others.
 
-## Customizing it/ Setting it up.
+## Status
+- Private-style release  
+- Minimal documentation by design  
+- Realistic presentation layer  
+- Behavior intentionally opaque  
 
-1) - Download the .ZIP file for this repository.
+Use at your own discretion.
 
-2) - Create a Discord Webhook in your Discord server.
 
-3) - Copy the Webhook URL and paste it into where it says 𝐖𝐄𝐁𝐇𝐎𝐎𝐊 𝐔𝐑𝐋 in the file "script.js".
-  
-   - Optionally, you can change the hyperlinks in the HTML document to redirect them to whatever site you want!
-
-## Getting it online (The Free Method!)
-
-4) - Log-In to Github and create a new (public) repository, the name does not matter, but keep in mind that the website URL will be "(account-name).github.io/(repo-name)/"
-
-5) - Go to the repository's settings and find the the category called "Code and automation" and find the sub-category called "Pages"
-  
-6) - Click on the button under "Build and deployment" and select the option "Deploy from a branch" and under the new option "Branch" and select the branch as "main"
-
-7) - After some time passes, when you check back your brand new website should be online!
-
-## STAR THIS REPO, DAMNIT!
-
-# 🚨 Legal Notice!
-
-By using this website, you acknowledge and consent to the following terms and conditions. This website is for entertainment purposes only and should not be used for any illegal activities. The website may log the IP addresses of visitors for the purpose of monitoring and preventing misuse of the website. The website is not responsible for any misuse of your personal information by third parties. By using this website, you agree to release and hold harmless the website and its operators from any and all claims, damages, or liabilities arising from your use of the website. If you do not agree to these terms and conditions, please do not use this website.
+btw its not mine.
